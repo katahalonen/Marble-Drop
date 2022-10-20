@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestroyOnTouch : MonoBehaviour
 {
@@ -9,7 +10,9 @@ public class DestroyOnTouch : MonoBehaviour
 
     void Update()
     {
-        if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        UIController.instance.LevelText.text = "Level " + SceneManager.GetActiveScene().buildIndex;
+
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
         
@@ -18,6 +21,6 @@ public class DestroyOnTouch : MonoBehaviour
                 Destroy(hit.transform.gameObject);   
             }
         }
-    }
+}
 }
 
