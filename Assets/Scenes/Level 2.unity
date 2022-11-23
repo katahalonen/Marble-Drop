@@ -2890,6 +2890,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 861259705}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &861259707 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7093623788675413541, guid: 234979aa217a418479657dd0424f8a3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 861259705}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &873774131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6068,6 +6074,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bowl
       objectReference: {fileID: 0}
+    - target: {fileID: 8288001799678554989, guid: 2ae57acb1622cad4bac2ba37c343c0c7,
+        type: 3}
+      propertyPath: GameFinishedText
+      value: 
+      objectReference: {fileID: 861259707}
     - target: {fileID: 8288001799678554989, guid: 2ae57acb1622cad4bac2ba37c343c0c7,
         type: 3}
       propertyPath: LevelClearedText

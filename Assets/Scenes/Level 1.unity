@@ -2827,6 +2827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8288001799678554989, guid: 2ae57acb1622cad4bac2ba37c343c0c7,
         type: 3}
+      propertyPath: GameFinishedText
+      value: 
+      objectReference: {fileID: 6309354525348165307}
+    - target: {fileID: 8288001799678554989, guid: 2ae57acb1622cad4bac2ba37c343c0c7,
+        type: 3}
       propertyPath: LevelClearedText
       value: 
       objectReference: {fileID: 1606883785}
@@ -3419,6 +3424,12 @@ PrefabInstance:
 --- !u!1 &6309354525348165306 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7047693374372892335, guid: 234979aa217a418479657dd0424f8a3e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6309354525348165305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6309354525348165307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7093623788675413541, guid: 234979aa217a418479657dd0424f8a3e,
     type: 3}
   m_PrefabInstance: {fileID: 6309354525348165305}
   m_PrefabAsset: {fileID: 0}
